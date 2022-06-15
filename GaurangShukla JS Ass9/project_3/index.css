@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:100%;
+}
+.bigContainer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+p{
+    word-wrap: break-word;
+    font-weight: 500;
+}
+.smallContainer{
+    width: 100%;
+    min-height: 80px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#dateAndTime{
+    width:250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

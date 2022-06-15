@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    transition: 1s;
+    flex-direction: column;
+    align-items: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:70%;
+}
+h1{
+    letter-spacing: 5px;
+}
+#flaunt{
+    background-color: rgb(228, 144, 172);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    align-items: center;
+}
+#aboutme{
+    width:100%;
+    height: auto;
+}
+#qualities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:150px;
+    width: 100%;
+}
+.quality{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: space-around;
+    background-color: rgb(219, 214, 214);
+    height: 90%;
+    width: 15%;
+    transition: .5s;
+    border:1px solid black;
+    padding: 5px;
+}.quality:hover{
+    background-color: bisque;
+    height: 100%;
+    width: 17%;
+}
+#techStack{
+    font-size: x-large;
+    font-weight: 1000;
+    transition: 1.5s;
+    color: rgb(93, 175, 251);
+}
+#heading{
+    width: 100%;
+}
+#closure{
+    width:100%;
+}
+#emoji{
+    margin: 5px;
+    margin-left: 10px;
+}
