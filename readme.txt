@@ -1,5 +1,5 @@
 Note: 
-For JS files name es and word files name GaurangShukla JS Ass:-
+For JS files name ex and word files name GaurangShukla JS Ass:-
 GaurangShukla JS Ass1 contains the code in ex1 along with the output.
 
 - temp folder conatins temp html and js files used to execute javascript in browser as the Online Interpreter could not use "Prompt".
